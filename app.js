@@ -4,7 +4,7 @@ var express        = require('express'),
     flash          = require('connect-flash'),
     methodOverride = require('method-override'),
     app            = express(),
-    seedDB         = require('./seeds');
+    // seedDB         = require('./seeds');
 
 //Import Routes 
 var campgroundRoutes = require("./routes/campgrounds"),
